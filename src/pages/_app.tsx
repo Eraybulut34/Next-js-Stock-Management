@@ -2,8 +2,12 @@ import '@/styles/global.css';
 
 import type { AppProps } from 'next/app';
 
+import RootLayout from '@/app/layout';
+
 const MyApp = ({ Component, pageProps }: AppProps) => (
-  <Component {...pageProps} />
+  <RootLayout>
+    <Component {...pageProps} />
+  </RootLayout>
 );
 
 export default MyApp;

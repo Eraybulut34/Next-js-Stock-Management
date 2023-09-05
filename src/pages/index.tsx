@@ -1,7 +1,5 @@
-import LeftNavigation from '@/components/LeftNavigation';
-
 const Index = () => {
-  return <LeftNavigation />;
+  return <div className="flex">Dashboard</div>;
 };
 
 export default Index;
