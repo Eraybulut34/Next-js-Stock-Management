@@ -1,5 +1,7 @@
+import LeftNavigation from '@/components/LeftNavigation';
+
 const Index = () => {
-  return <>asdasdasd</>;
+  return <LeftNavigation />;
 };
 
 export default Index;
