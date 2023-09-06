@@ -44,10 +44,10 @@ const LeftNavigation: React.FC = () => {
           </Link>
         </li>
         {menus.map((menu) => (
-          <li key={menu.name} className="p-2">
+          <li key={menu.name} className="box-shadow p-2">
             <Link
               href={menu.path}
-              className=":hover:bg-gray-400 flex items-center gap-x-3 text-black"
+              className="flex items-center gap-x-3 text-black"
             >
               {menu.icon}
               <span>{menu.name}</span>
